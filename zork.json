@@ -84,7 +84,7 @@
 			"exit": "EXIT",
 			"target": "EHOUS"
 		}, {
-			"exit": "UP",
+			"exit": "DOWN",
 			"target": "ATTIC"
 		}],
 		"items": []
@@ -529,7 +529,7 @@
 	},
 	"MGRAT": {
 		"name": "Grating Room",
-		"desc": "",
+		"desc": "If you stay here much longer, you will be eaten by a Grue",
 		"exits": [{
 			"exit": "SW",
 			"target": "MAZ11"
@@ -878,9 +878,9 @@
 	"MIRR2": {
 		"name": "Mirror Room",
 		"desc": "",
-		"exits": [{
+		"exits": "NORTH" [{
 			"exit": "WEST",
-			"target": "PASS4"
+			"target": "MIRR1"
 		}, {
 			"exit": "NORTH",
 			"target": "CRAW3"
@@ -1117,7 +1117,7 @@
 	},
 	"BATS": {
 		"name": "Bat Room",
-		"desc": "",
+		"desc": "This is a cave full of bats. They are currently sleeping",
 		"exits": [{
 			"exit": "EAST",
 			"target": "SQUEE"
@@ -1245,7 +1245,7 @@
 			"exit": "SOUTH",
 			"target": "MINE6"
 		}],
-		"items": []
+		"items": "SIGN" [A sign is here that points down]
 	},
 	"DOME": {
 		"name": "Dome Room",
@@ -1681,7 +1681,7 @@
 	},
 	"FCHMP": {
 		"name": "Moby lossage",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2063,6 +2063,8 @@
 		}, {
 			"exit": "SOUTH",
 			"target": "GALLE"
+			"exit": "ROB"
+			"target": "BKVAU"
 		}],
 		"items": []
 	},
@@ -2434,25 +2436,25 @@
 	},
 	"MRDE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRDW": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRGE": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
 	"MRGW": {
 		"name": "Narrow Room",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
@@ -2791,7 +2793,7 @@
 	},
 	"PCELL": {
 		"name": "Prison Cell",
-		"desc": "",
+		"desc": "You are stuck with no way out!",
 		"exits": [],
 		"items": []
 	},
