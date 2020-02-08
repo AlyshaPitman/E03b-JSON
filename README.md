@@ -8,6 +8,7 @@
  - IN FCHMP, MRDE, MRDW, MRGE, MRGW, and PCELL add a description: "You are stuck with no way out!"
  - Add new exit in BKENT called "ROB" with a target of "BKVAU"
  - In EGYPT, add a new item, a "MUMMY" with a description that reads "An ancient Egyptian mummy is sprawled on the floor". If the player tries to "TAKE" it, the response should be "You stuff the mummy in to your sack".
- > Something went wrong with this step. I had reached out for help and not heard a response, if I have this problem again in the future, I'll try to reach out again, perhaps in a more in-person setting. 
  - In DEAD7, change the description to "You have reached a dead end"
  - In CP change the name to "Just a room (not at all suspicious)"
+
+Thank you for getting back with me and helping

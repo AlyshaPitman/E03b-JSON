@@ -159,7 +159,7 @@
 		"name": "Forest",
 		"desc": "This is a dimly lit forest, with large trees all around.  One\nparticularly large tree with some low branches stands here.",
 		"exits": [{
-			"exit": "UP",
+			"exit": "DOWN",
 			"target": "TREE"
 		}, {
 			"exit": "NORTH",
@@ -789,7 +789,12 @@
 			"exit": "EAST",
 			"target": "CRAW1"
 		}],
-		"items": "Mummy" ["An ancient Egyptian mummy is sprawled on the floor"]
+		"items": []
+            {
+                "item": "MUMMY",
+                "desc": "An ancient Egyptian mummy is sprawled on the floor.",
+                "take": "You stuff the mummy in to your sack."
+            }
 	},
 	"ICY": {
 		"name": "Glacier Room",
@@ -878,12 +883,15 @@
 	"MIRR2": {
 		"name": "Mirror Room",
 		"desc": "",
-		"exits": "NORTH" [{
+		"exits": [{
 			"exit": "WEST",
 			"target": "MIRR1"
 		}, {
 			"exit": "NORTH",
 			"target": "CRAW3"
+		}, {
+			"exit": "NORTH",
+			"target": "MIRR1"
 		}, {
 			"exit": "EAST",
 			"target": "CAVE2"
@@ -1245,7 +1253,10 @@
 			"exit": "SOUTH",
 			"target": "MINE6"
 		}],
-		"items": "SIGN" [A sign is here that points down]
+		"items": {
+			"item": "SIGN",
+			"desc": "A sign is here that points down"
+		}
 	},
 	"DOME": {
 		"name": "Dome Room",
@@ -2063,7 +2074,8 @@
 		}, {
 			"exit": "SOUTH",
 			"target": "GALLE"
-			"exit": "ROB"
+		},{
+			"exit": "ROB",
 			"target": "BKVAU"
 		}],
 		"items": []
@@ -2180,7 +2192,7 @@
 		"items": []
 	},
 	"CP": {
-		"name": "Just a room (not at all suspicious),
+		"name": "Just a room (not at all suspicious)",
 		"desc": "",
 		"exits": [{
 			"exit": "NORTH",
