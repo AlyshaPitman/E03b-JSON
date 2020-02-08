@@ -789,7 +789,7 @@
 			"exit": "EAST",
 			"target": "CRAW1"
 		}],
-		"items": []
+		"items": "Mummy" ["An ancient Egyptian mummy is sprawled on the floor"]
 	},
 	"ICY": {
 		"name": "Glacier Room",
@@ -1072,7 +1072,7 @@
 	},
 	"DEAD7": {
 		"name": "Dead End",
-		"desc": "Dead End",
+		"desc": "You have reached a dead end",
 		"exits": [{
 			"exit": "SOUTH",
 			"target": "BLADD"
@@ -2180,7 +2180,7 @@
 		"items": []
 	},
 	"CP": {
-		"name": "Room in a Puzzle",
+		"name": "Just a room (not at all suspicious),
 		"desc": "",
 		"exits": [{
 			"exit": "NORTH",
